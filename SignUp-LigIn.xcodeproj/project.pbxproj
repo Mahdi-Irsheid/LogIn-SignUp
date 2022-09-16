@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1CC6B928A3CC1700CE2334 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1CC6B828A3CC1700CE2334 /* constants.swift */; };
+		DA5B4FE22892B43000A5738E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B4FE12892B43000A5738E /* SignUpViewController.swift */; };
+		DA5B4FE42892B44200A5738E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B4FE32892B44200A5738E /* SignInViewController.swift */; };
+		DA5B4FE62892B45500A5738E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B4FE52892B45500A5738E /* HomeScreenViewController.swift */; };
+		DA5B4FEF2892C82200A5738E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA5B4FEE2892C82200A5738E /* GoogleService-Info.plist */; };
+		DA6CC5C328A50C12000C07DA /* forgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CC5C228A50C12000C07DA /* forgetPasswordVC.swift */; };
 		DABE7FCF2892B2C500857ECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE7FCE2892B2C500857ECE /* AppDelegate.swift */; };
 		DABE7FD12892B2C500857ECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE7FD02892B2C500857ECE /* SceneDelegate.swift */; };
 		DABE7FD32892B2C500857ECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE7FD22892B2C500857ECE /* ViewController.swift */; };
 		DABE7FD62892B2C500857ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE7FD42892B2C500857ECE /* Main.storyboard */; };
 		DABE7FD82892B2C600857ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABE7FD72892B2C600857ECE /* Assets.xcassets */; };
 		DABE7FDB2892B2C600857ECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE7FD92892B2C600857ECE /* LaunchScreen.storyboard */; };
+		DACCEB8B28A2BCA700838807 /* Pods_SignUp_LigIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CDF39D1D111F8950C1D424 /* Pods_SignUp_LigIn.framework */; };
+		DACE81C4289BD9C70034BA00 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACE81C3289BD9C70034BA00 /* SignUp.storyboard */; };
+		DACE81C6289BD9D70034BA00 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACE81C5289BD9D70034BA00 /* SignIn.storyboard */; };
+		DACE81C8289BDA300034BA00 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACE81C7289BDA300034BA00 /* HomeScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CBA78AA887E4C055FEC65EB /* Pods-SignUp-LigIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUp-LigIn.debug.xcconfig"; path = "Target Support Files/Pods-SignUp-LigIn/Pods-SignUp-LigIn.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CDF39D1D111F8950C1D424 /* Pods_SignUp_LigIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignUp_LigIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1CC6B828A3CC1700CE2334 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		DA5B4FE12892B43000A5738E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DA5B4FE32892B44200A5738E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DA5B4FE52892B45500A5738E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		DA5B4FEE2892C82200A5738E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA6CC5C228A50C12000C07DA /* forgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordVC.swift; sourceTree = "<group>"; };
 		DABE7FCB2892B2C500857ECE /* SignUp-LigIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignUp-LigIn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABE7FCE2892B2C500857ECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABE7FD02892B2C500857ECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,10 @@
 		DABE7FD72892B2C600857ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DABE7FDA2892B2C600857ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DABE7FDC2892B2C600857ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACE81C3289BD9C70034BA00 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		DACE81C5289BD9D70034BA00 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		DACE81C7289BDA300034BA00 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		E32910E8B0E9C2D24C4ACBD7 /* Pods-SignUp-LigIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUp-LigIn.release.xcconfig"; path = "Target Support Files/Pods-SignUp-LigIn/Pods-SignUp-LigIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACCEB8B28A2BCA700838807 /* Pods_SignUp_LigIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8900391093C92FE6461794BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CDF39D1D111F8950C1D424 /* Pods_SignUp_LigIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A365401DBC53AA16E40043F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA78AA887E4C055FEC65EB /* Pods-SignUp-LigIn.debug.xcconfig */,
+				E32910E8B0E9C2D24C4ACBD7 /* Pods-SignUp-LigIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA1CC6B728A3CC0000CE2334 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA1CC6B828A3CC1700CE2334 /* constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DABE7FC22892B2C500857ECE = {
 			isa = PBXGroup;
 			children = (
 				DABE7FCD2892B2C500857ECE /* SignUp-LigIn */,
 				DABE7FCC2892B2C500857ECE /* Products */,
+				A365401DBC53AA16E40043F7 /* Pods */,
+				8900391093C92FE6461794BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,48 @@
 		DABE7FCD2892B2C500857ECE /* SignUp-LigIn */ = {
 			isa = PBXGroup;
 			children = (
+				DA1CC6B728A3CC0000CE2334 /* Helpers */,
 				DABE7FCE2892B2C500857ECE /* AppDelegate.swift */,
 				DABE7FD02892B2C500857ECE /* SceneDelegate.swift */,
 				DABE7FD22892B2C500857ECE /* ViewController.swift */,
 				DABE7FD42892B2C500857ECE /* Main.storyboard */,
+				DA5B4FEE2892C82200A5738E /* GoogleService-Info.plist */,
+				DACE81C1289BD95D0034BA00 /* SignUp */,
+				DACE81C2289BD9860034BA00 /* SignIn */,
+				DABE7FE22892B2DD00857ECE /* HomeScreen */,
 				DABE7FD72892B2C600857ECE /* Assets.xcassets */,
-				DABE7FD92892B2C600857ECE /* LaunchScreen.storyboard */,
 				DABE7FDC2892B2C600857ECE /* Info.plist */,
 			);
 			path = "SignUp-LigIn";
+			sourceTree = "<group>";
+		};
+		DABE7FE22892B2DD00857ECE /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B4FE52892B45500A5738E /* HomeScreenViewController.swift */,
+				DACE81C7289BDA300034BA00 /* HomeScreen.storyboard */,
+				DABE7FD92892B2C600857ECE /* LaunchScreen.storyboard */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		DACE81C1289BD95D0034BA00 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B4FE12892B43000A5738E /* SignUpViewController.swift */,
+				DACE81C3289BD9C70034BA00 /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		DACE81C2289BD9860034BA00 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B4FE32892B44200A5738E /* SignInViewController.swift */,
+				DA6CC5C228A50C12000C07DA /* forgetPasswordVC.swift */,
+				DACE81C5289BD9D70034BA00 /* SignIn.storyboard */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +157,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABE7FDF2892B2C600857ECE /* Build configuration list for PBXNativeTarget "SignUp-LigIn" */;
 			buildPhases = (
+				C3911EDE7C0A0E68906182EC /* [CP] Check Pods Manifest.lock */,
 				DABE7FC72892B2C500857ECE /* Sources */,
 				DABE7FC82892B2C500857ECE /* Frameworks */,
 				DABE7FC92892B2C500857ECE /* Resources */,
+				6F937FC2182E25C56385440A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SignUp-LigIn";
+			packageProductDependencies = (
+			);
 			productName = "SignUp-LigIn";
 			productReference = DABE7FCB2892B2C500857ECE /* SignUp-LigIn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,9 @@
 				Base,
 			);
 			mainGroup = DABE7FC22892B2C500857ECE;
+			packageReferences = (
+				DA5B4FF02892C96500A5738E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DABE7FCC2892B2C500857ECE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,12 +216,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				DABE7FDB2892B2C600857ECE /* LaunchScreen.storyboard in Resources */,
+				DA5B4FEF2892C82200A5738E /* GoogleService-Info.plist in Resources */,
 				DABE7FD82892B2C600857ECE /* Assets.xcassets in Resources */,
+				DACE81C8289BDA300034BA00 /* HomeScreen.storyboard in Resources */,
 				DABE7FD62892B2C500857ECE /* Main.storyboard in Resources */,
+				DACE81C6289BD9D70034BA00 /* SignIn.storyboard in Resources */,
+				DACE81C4289BD9C70034BA00 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F937FC2182E25C56385440A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUp-LigIn/Pods-SignUp-LigIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUp-LigIn/Pods-SignUp-LigIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignUp-LigIn/Pods-SignUp-LigIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3911EDE7C0A0E68906182EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignUp-LigIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DABE7FC72892B2C500857ECE /* Sources */ = {
@@ -140,7 +276,12 @@
 			files = (
 				DABE7FD32892B2C500857ECE /* ViewController.swift in Sources */,
 				DABE7FCF2892B2C500857ECE /* AppDelegate.swift in Sources */,
+				DA5B4FE22892B43000A5738E /* SignUpViewController.swift in Sources */,
+				DA1CC6B928A3CC1700CE2334 /* constants.swift in Sources */,
+				DA6CC5C328A50C12000C07DA /* forgetPasswordVC.swift in Sources */,
+				DA5B4FE42892B44200A5738E /* SignInViewController.swift in Sources */,
 				DABE7FD12892B2C500857ECE /* SceneDelegate.swift in Sources */,
+				DA5B4FE62892B45500A5738E /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +423,7 @@
 		};
 		DABE7FE02892B2C600857ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBA78AA887E4C055FEC65EB /* Pods-SignUp-LigIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +435,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +454,7 @@
 		};
 		DABE7FE12892B2C600857ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32910E8B0E9C2D24C4ACBD7 /* Pods-SignUp-LigIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +466,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +505,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA5B4FF02892C96500A5738E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DABE7FC32892B2C500857ECE /* Project object */;
 }
